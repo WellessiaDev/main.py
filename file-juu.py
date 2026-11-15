@@ -11,7 +11,7 @@ import sys
 
 # --- CONFIGURATION ---
 # Adjust these based on your Railway plan limits
-MEMORY_TARGET_GB = 4      # Increase to match your plan's memory limit (e.g., 8, 16)
+MEMORY_TARGET_GB = 8      # Increase to match your plan's memory limit (e.g., 8, 16)
 PORT = 8080               # Standard port for Railway
 EGRESS_PAYLOAD_MB = 50    # Size of data served per HTTP request
 DISK_STRESS_ENABLED = True
